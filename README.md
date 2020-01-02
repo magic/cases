@@ -54,6 +54,7 @@ console.log({ camelized, snaked, pascaled, kebabed })
 #### <a name="changelog"></a>changelog
 
 ##### 0.0.1
-first commit
+first commit, four case types work.
 
 ##### 0.0.2 - unreleased
+...
