@@ -1,6 +1,6 @@
 ## @magic/cases
 
-convert strings from and to camelCase, PascalCase, snake_case, and kebab-case.
+convert between camelCase, PascalCase, snake_case, and kebab-case.
 
 [html-docs](https://magic.github.io/cli/)
 

@@ -2,7 +2,7 @@
   "name": "@magic/cases",
   "version": "0.0.1",
   "homepage": "https://magic.github.io/cases",
-  "description": "camelCase, PascalCase, snake_case, kebab-case conversion and test utilities",
+  "description": "convert between camelCase, PascalCase, snake_case, and kebab-case.",
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
