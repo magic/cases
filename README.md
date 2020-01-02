@@ -2,7 +2,7 @@
 
 convert between camelCase, PascalCase, snake_case, and kebab-case.
 
-[html-docs](https://magic.github.io/cli/)
+[html-docs](https://magic.github.io/cases/)
 
 [![NPM version][npm-image]][npm-url]
 [![Linux Build Status][travis-image]][travis-url]
