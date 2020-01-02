@@ -33,8 +33,8 @@
     "@magic-modules/light-switch": "0.0.3",
     "@magic-modules/pre": "0.0.2",
     "@magic-themes/docs": "0.0.2",
-    "@magic/core": "0.0.13",
-    "@magic/test": "0.1.24"
+    "@magic/core": "0.0.14",
+    "@magic/test": "0.1.25"
   },
   "author": "Wizards & Witches",
   "license": "AGPL-3.0",
