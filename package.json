@@ -16,6 +16,13 @@
   "files": [
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic/cases.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic/cases/issues"
+  },
   "keywords": [
     "magic",
     "snake_case",
