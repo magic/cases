@@ -3,12 +3,6 @@ const upperCaseRegex = /([A-Z][a-z]+)/g
 
 export const lower = (s, i, b) => s.toLowerCase()
 
-export const pascal = s =>
-  s
-    .split(snakeRegex)
-    .map(s => `${s[0].toUpperCase()}${s.substr(1)}`)
-    .join('')
-
 export const camel = s =>
   s
     .split(snakeRegex)
@@ -25,6 +19,14 @@ export const kebab = s =>
     .join('-')
     .replace(/--+/g, '-')
 
+export const kebabCaps = s => kebab(s).toUpperCase()
+
+export const pascal = s =>
+  s
+    .split(snakeRegex)
+    .map(s => `${s[0].toUpperCase()}${s.substr(1)}`)
+    .join('')
+
 export const snake = s =>
   s
     .replace('-', '_')
@@ -34,9 +36,13 @@ export const snake = s =>
     .join('_')
     .replace(/__+/g, '_')
 
+export const snakeCaps = s => snake(s).toUpperCase()
+
 export default {
-  pascal,
   camel,
-  snake,
   kebab,
+  kebabCaps,
+  pascal,
+  snake,
+  snakeCaps,
 }
