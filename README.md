@@ -56,5 +56,8 @@ console.log({ camelized, snaked, pascaled, kebabed })
 ##### 0.0.1
 first commit, four case types work.
 
-##### 0.0.2 - unreleased
+##### 0.0.2
+add kebabCaps and snakeCaps for KEBAB-CAPS and SNAKE_CAPS
+
+##### 0.0.3 - unreleased
 ...
