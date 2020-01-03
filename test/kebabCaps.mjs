@@ -1,7 +1,11 @@
 import cases from '../src/index.mjs'
 
 export default [
-  { fn: cases.kebabCaps('camelCase'), expect: 'CAMEL-CASE', info: 'kebabCaps can convert from camelCase' },
+  {
+    fn: cases.kebabCaps('camelCase'),
+    expect: 'CAMEL-CASE',
+    info: 'kebabCaps can convert from camelCase',
+  },
   {
     fn: cases.kebabCaps('snake_case'),
     expect: 'SNAKE-CASE',

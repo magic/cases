@@ -6,7 +6,11 @@ export default [
     expect: 'KEBAB_CASE',
     info: 'snakeCaps can convert from kebab-case',
   },
-  { fn: cases.snakeCaps('camelCase'), expect: 'CAMEL_CASE', info: 'snakeCaps can convert from camelCase' },
+  {
+    fn: cases.snakeCaps('camelCase'),
+    expect: 'CAMEL_CASE',
+    info: 'snakeCaps can convert from camelCase',
+  },
   {
     fn: cases.snakeCaps('PascalCase'),
     expect: 'PASCAL_CASE',
