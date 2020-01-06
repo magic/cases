@@ -16,6 +16,10 @@
   "files": [
     "src"
   ],
+  "engines": {
+    "node": ">=13.5.0"
+  },
+  "engineStrict": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/magic/cases.git"
