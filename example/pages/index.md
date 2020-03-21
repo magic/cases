@@ -1,8 +1,8 @@
-# ${state.title}
+# ${title}
 
-${state.description}
+${description}
 
-<GitBadges>magic/cases</GitBadges>
+<GitBadges>@magic/cases</GitBadges>
 
 ### install
 
