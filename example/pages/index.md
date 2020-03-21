@@ -1,6 +1,6 @@
-# ${title}
+# ${state.title}
 
-${description}
+${state.description}
 
 <GitBadges>@magic/cases</GitBadges>
 
@@ -26,10 +26,11 @@ import cases from '@magic/cases'
 const camelCased = cases.camel('some-casedString')
 
 // camelCased === 'someCasedString'
-  `),
+```
 
-  h4({ id: 'usage-kebab' }, 'kebab-case'),
-  Pre(`
+#### #usage-kebab kebab-case
+
+```
 import cases from '@magic/cases'
 
 const kebabCased = cases.kebab('some-casedString')
