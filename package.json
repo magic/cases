@@ -1,6 +1,6 @@
 {
   "name": "@magic/cases",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://magic.github.io/cases",
   "description": "convert between camelCase, PascalCase, snake_case, and kebab-case.",
   "scripts": {
