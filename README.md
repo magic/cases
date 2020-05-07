@@ -59,5 +59,8 @@ first commit, four case types work.
 ##### 0.0.2
 add kebabCaps and snakeCaps for KEBAB-CAPS and SNAKE_CAPS
 
-##### 0.0.3 - unreleased
+##### 0.0.3
+bump required node version to 14.2.0
+
+##### 0.0.4 - unreleased
 ...
