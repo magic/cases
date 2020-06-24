@@ -5,5 +5,5 @@ export default {
   URL: 'magic.github.io/cases',
   WEB_ROOT: '/cases/',
 
-  HOIST: ['Gdpr', 'LightSwitch'],
+  HOIST: ['NoSpy', 'LightSwitch'],
 }
