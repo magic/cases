@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "homepage": "https://magic.github.io/cases",
   "description": "convert between camelCase, PascalCase, snake_case, and kebab-case.",
+  "type": "module",
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
