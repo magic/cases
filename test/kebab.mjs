@@ -22,4 +22,19 @@ export default [
     expect: 'weird-cased-string',
     info: 'kebab can convert weird strings',
   },
+  {
+    fn: cases.kebab('overflowX'),
+    expect: 'overflow-x',
+    info: 'kebab can convert camelCase strings that end with an upper case character',
+  },
+  {
+    fn: cases.kebab('overflow_x'),
+    expect: 'overflow-x',
+    info: 'kebab can convert snake_case strings that end with an upper case character',
+  },
+  {
+    fn: cases.kebab('OverflowX'),
+    expect: 'overflow-x',
+    info: 'kebab can convert PascalCase strings that end with an upper case character',
+  },
 ]
