@@ -65,5 +65,9 @@ bump required node version to 14.2.0
 ##### 0.0.4
 bump required node version to 14.15.4
 
-##### 0.0.5 - unreleased
+##### 0.0.5
+FIX: kebabcase handles camelCase strings that end with an uppercase character correctly
+(this fixes overflowX in @magic/css)
+
+##### 0.0.6 - unreleased
 ...
