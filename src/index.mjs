@@ -1,5 +1,5 @@
 const snakeRegex = /[-_]/gi
-const upperCaseRegex = /([A-Z][a-z]+)/g
+const upperCaseRegex = /([A-Z]?[^A-Z]*)/g
 
 export const lower = (s, i, b) => s.toLowerCase()
 
