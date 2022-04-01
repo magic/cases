@@ -72,5 +72,8 @@ FIX: kebabcase handles camelCase strings that end with an uppercase character co
 ##### 0.0.6 
 update dependencies
 
-##### 0.0.7 - unreleased
+##### 0.0.7
+update dev dependencies
+
+##### 0.0.8 - unreleased
 ...
