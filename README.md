@@ -75,5 +75,8 @@ update dependencies
 ##### 0.0.7
 update dev dependencies
 
-##### 0.0.8 - unreleased
+##### 0.0.8
+update dependencies
+
+##### 0.0.9 - unreleased
 ...
