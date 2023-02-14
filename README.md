@@ -24,29 +24,32 @@ convert between camelCase, PascalCase, snake_case, and kebab-case.
 [snyk-image]: https://snyk.io/test/github/magic/cases/badge.svg
 [snyk-url]: https://snyk.io/test/github/magic/cases
 
-* [install](#install)
-* [usage](#usage)
-* [changelog](#changelog)
+- [install](#install)
+- [usage](#usage)
+- [changelog](#changelog)
 
 ### <a name="install"></a>install
+
 be in a nodejs project.
+
 ```bash
 npm i --save-dev @magic/cases
 ```
 
 ### <a name="usage"></a>usage
+
 ```javascript
 import cases from '@magic/cases'
 
 const string = 'some-case-string'
 
-const camelized = cases.camel('some-case-string')  // someCaseString
+const camelized = cases.camel('some-case-string') // someCaseString
 
-const snaked = cases.snake('some-case-string')  // some_case_string
+const snaked = cases.snake('some-case-string') // some_case_string
 
 const pascaled = cases.pascal('some-case-string') // SomeCaseString
 
-const kebabed = cases.kebab('some-case-string')  // some-case-string
+const kebabed = cases.kebab('some-case-string') // some-case-string
 
 console.log({ camelized, snaked, pascaled, kebabed })
 ```
@@ -54,32 +57,42 @@ console.log({ camelized, snaked, pascaled, kebabed })
 #### <a name="changelog"></a>changelog
 
 ##### 0.0.1
+
 first commit, four case types work.
 
 ##### 0.0.2
+
 add kebabCaps and snakeCaps for KEBAB-CAPS and SNAKE_CAPS
 
 ##### 0.0.3
+
 bump required node version to 14.2.0
 
 ##### 0.0.4
+
 bump required node version to 14.15.4
 
 ##### 0.0.5
+
 FIX: kebabcase handles camelCase strings that end with an uppercase character correctly
 (this fixes overflowX in @magic/css)
 
 ##### 0.0.6
+
 update dependencies
 
 ##### 0.0.7
+
 update dev dependencies
 
 ##### 0.0.8
+
 update dependencies
 
 ##### 0.0.9
+
 update development dependencies
 
 ##### 0.0.10 - unreleased
+
 ...
