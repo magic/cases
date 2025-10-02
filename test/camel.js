@@ -1,4 +1,4 @@
-import cases from '../src/index.mjs'
+import cases from '../src/index.js'
 
 export default [
   { fn: cases.camel('kebab-case'), expect: 'kebabCase', info: 'camel can convert from kebab-case' },

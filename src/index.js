@@ -1,8 +1,15 @@
 const snakeRegex = /[-_]/gi
 const upperCaseRegex = /([A-Z]?[^A-Z]*)/g
 
-export const lower = (s, i, b) => s.toLowerCase()
+/**
+ * @typedef {(s: string) => string} CaseHandler
+ */
 
+
+/** @type {CaseHandler} */
+export const lower = (s) => s.toLowerCase()
+
+/** @type {CaseHandler} */
 export const camel = s =>
   s
     .split(snakeRegex)
@@ -10,6 +17,7 @@ export const camel = s =>
     .map((s, i) => (i === 0 ? s[0].toLowerCase() + s.substr(1) : s[0].toUpperCase() + s.substr(1)))
     .join('')
 
+/** @type {CaseHandler} */
 export const kebab = s =>
   s
     .replace('_', '-')
@@ -19,14 +27,17 @@ export const kebab = s =>
     .join('-')
     .replace(/--+/g, '-')
 
+/** @type {CaseHandler} */
 export const kebabCaps = s => kebab(s).toUpperCase()
 
+/** @type {CaseHandler} */
 export const pascal = s =>
   s
     .split(snakeRegex)
     .map(s => `${s[0].toUpperCase()}${s.substr(1)}`)
     .join('')
 
+/** @type {CaseHandler} */
 export const snake = s =>
   s
     .replace('-', '_')
@@ -36,6 +47,7 @@ export const snake = s =>
     .join('_')
     .replace(/__+/g, '_')
 
+/** @type {CaseHandler} */
 export const snakeCaps = s => snake(s).toUpperCase()
 
 export default {

@@ -1,5 +1,5 @@
 import { version } from '@magic/test'
-import cases from '../src/index.mjs'
+import cases from '../src/index.js'
 
 const spec = {
   camel: 'fn',

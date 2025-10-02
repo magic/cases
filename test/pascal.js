@@ -1,4 +1,4 @@
-import cases from '../src/index.mjs'
+import cases from '../src/index.js'
 
 export default [
   { fn: cases.pascal('camelCase'), expect: 'CamelCase', info: 'pascal can convert from camelCase' },
