@@ -5,9 +5,8 @@ const upperCaseRegex = /([A-Z]?[^A-Z]*)/g
  * @typedef {(s: string) => string} CaseHandler
  */
 
-
 /** @type {CaseHandler} */
-export const lower = (s) => s.toLowerCase()
+export const lower = s => s.toLowerCase()
 
 /** @type {CaseHandler} */
 export const camel = s =>
