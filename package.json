@@ -8,14 +8,17 @@
     "start": "t -p",
     "format": "f -w --exclude docs",
     "test": "t --exclude docs docsrc config.js",
-    "build": "NODE_ENV=production magic build",
+    "build:docs": "NODE_ENV=production magic build",
+    "build": "tsc && npm run format",
     "prod": "NODE_ENV=production magic build serve --watch src",
     "dev": "magic dev",
     "calls": "calls"
   },
-  "main": "src/index.mjs",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
   "files": [
-    "src"
+    "src",
+    "types"
   ],
   "engines": {
     "node": ">=14.15.4"
@@ -47,7 +50,8 @@
     "@magic-themes/docs": "0.0.15",
     "@magic/core": "0.0.156",
     "@magic/format": "0.0.68",
-    "@magic/test": "0.2.20"
+    "@magic/test": "0.2.20",
+    "typescript": "5.9.3"
   },
   "author": "Wizards & Witches",
   "license": "AGPL-3.0",
