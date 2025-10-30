@@ -93,6 +93,14 @@ update dependencies
 
 update development dependencies
 
-##### 0.0.10 - unreleased
+##### 0.0.10
+
+- update dependencies
+
+##### 0.0.11
+
+- update dependencies
+
+##### 0.0.12 - unreleased
 
 ...
