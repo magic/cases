@@ -13,18 +13,20 @@ export const camel = s =>
   s
     .split(snakeRegex)
     .filter(a => a)
-    .map((s, i) => (i === 0 ? s[0].toLowerCase() + s.substr(1) : s[0].toUpperCase() + s.substr(1)))
+    .map((s, i) =>
+      i === 0 ? s[0].toLowerCase() + s.substring(1) : s[0].toUpperCase() + s.substring(1),
+    )
     .join('')
 
 /** @type {CaseHandler} */
 export const kebab = s =>
   s
-    .replace('_', '-')
+    .replace(/_/gim, '-')
     .split(upperCaseRegex)
     .filter(a => a)
     .map(lower)
     .join('-')
-    .replace(/--+/g, '-')
+    .replace(/--+/gim, '-')
 
 /** @type {CaseHandler} */
 export const kebabCaps = s => kebab(s).toUpperCase()
@@ -33,18 +35,18 @@ export const kebabCaps = s => kebab(s).toUpperCase()
 export const pascal = s =>
   s
     .split(snakeRegex)
-    .map(s => `${s[0].toUpperCase()}${s.substr(1)}`)
+    .map(s => `${s[0].toUpperCase()}${s.substring(1)}`)
     .join('')
 
 /** @type {CaseHandler} */
 export const snake = s =>
   s
-    .replace('-', '_')
+    .replace(/-/gim, '_')
     .split(upperCaseRegex)
     .filter(a => a)
     .map(lower)
     .join('_')
-    .replace(/__+/g, '_')
+    .replace(/__+/gim, '_')
 
 /** @type {CaseHandler} */
 export const snakeCaps = s => snake(s).toUpperCase()
