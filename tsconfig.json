@@ -5,6 +5,7 @@
     "allowJs": true,
     "checkJs": true,
     "outDir": "types",
+    "rootDir": "./src",
     "strict": true,
     "moduleResolution": "nodenext",
     "target": "ES2022",
