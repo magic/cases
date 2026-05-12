@@ -3,13 +3,13 @@ import cases from '../src/index.js'
 export default [
   { fn: cases.kebab('camelCase'), expect: 'camel-case', info: 'kebab can convert from camelCase' },
   {
-    fn: cases.kebab('snake_case'),
-    expect: 'snake-case',
+    fn: cases.kebab('snake_case_extended'),
+    expect: 'snake-case-extended',
     info: 'kebab can convert from snake-case',
   },
   {
-    fn: cases.kebab('PascalCase'),
-    expect: 'pascal-case',
+    fn: cases.kebab('PascalCaseTest'),
+    expect: 'pascal-case-test',
     info: 'kebab can convert from PascalCase',
   },
   {
