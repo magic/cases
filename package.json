@@ -12,7 +12,8 @@
     "build": "tsc && npm run format",
     "prod": "NODE_ENV=production magic build serve --watch src",
     "dev": "magic dev",
-    "calls": "calls"
+    "calls": "calls",
+    "check": "tsc --noEmit"
   },
   "main": "src/index.js",
   "types": "types/index.d.ts",
