@@ -101,6 +101,11 @@ update development dependencies
 
 - update dependencies
 
-##### 0.0.12 - unreleased
+##### 0.0.12
+
+- FIX: longer variables get converted correctly
+- update dependencies
+
+##### 0.0.13 - unreleased
 
 ...
