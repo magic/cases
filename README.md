@@ -106,6 +106,10 @@ update development dependencies
 - FIX: longer variables get converted correctly
 - update dependencies
 
-##### 0.0.13 - unreleased
+##### 0.0.13
+
+- update @magic/test
+
+##### 0.0.14 - unreleased
 
 ...
