@@ -51,7 +51,7 @@
     "@magic-themes/docs": "0.0.15",
     "@magic/core": "0.0.158",
     "@magic/format": "0.0.73",
-    "@magic/test": "0.3.10",
+    "@magic/test": "0.3.12",
     "typescript": "6.0.3"
   },
   "author": "Wizards & Witches",
